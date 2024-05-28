@@ -1,0 +1,42 @@
+/* Smart phones */
+@media (max-width: 450px) {
+  .form-heading {
+    font-size: 1.4rem;
+  }
+
+  .form-container {
+    width: 80vw;
+    margin-left: 5vw;
+    padding: 1rem;
+  }
+
+  .label {
+    font-size: 1.4rem;
+  }
+
+  .task-name {
+    width: 13rem;
+    margin: 0.5rem 1.2rem 1rem 0;
+  }
+
+  .btn {
+    padding: 0.45rem 1.8rem;
+    font-size: 0.9rem;
+  }
+
+  .btn-secondary {
+    margin-top: 5vh;
+  }
+
+  .task-list {
+    margin-top: 2rem;
+  }
+
+  .edit {
+    margin: 0rem 1rem 0 30%;
+  }
+
+  .list-item {
+    padding: 0.8rem 1rem;
+  }
+}
