@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Task Manager | Welcome</title>
+  </head>
+  <body>
+    <h1 class="form-heading">Task Manager App</h1>
+    <div class="form-container">
+      <form id="task-form" class="task-form">
+        <label class="label" for="task-name">Add Task</label>
+        <input
+          type="text"
+          name="task-name"
+          id="task-name"
+          class="task-name"
+          placeholder="e.g Wash the clothes"
+        />
+        <button type="submit" class="btn" id="btn">Submit</button>
+      </form>
+      <button id="update" class="update">Update Task</button>
+      <button id="cancel" class="cancel">Cancel</button>
+
+      <div class="list-container">
+        <ul id="task-list" class="task-list"></ul>
+      </div>
+
+      <div class="btn-container">
+        <button id="clear-tasks" class="btn-secondary">Clear Tasks</button>
+      </div>
+    </div>
+
+    <!-- axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./logic.js"></script>
+  </body>
+</html>

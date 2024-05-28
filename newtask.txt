@@ -1,0 +1,18 @@
+const listItem = document.createElement("li");
+      listItem.textContent = newTask;
+      listItem.className = "list-item";
+
+      const editSymbol = "🖊";
+      const editTag = document.createElement("i");
+      editTag.textContent = editSymbol;
+      editTag.className = "edit";
+
+      const deleteSymbol = "❌";
+      const deleteTag = document.createElement("i");
+      deleteTag.textContent = deleteSymbol;
+      deleteTag.className = "delete";
+
+      listItem.appendChild(editTag);
+      listItem.appendChild(deleteTag);
+
+      taskList.appendChild(listItem);
